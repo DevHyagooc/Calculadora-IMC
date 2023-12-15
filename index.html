@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <fieldset class="box_principal">
+        <form>
+            <input class="função" id="nome" type="text" placeholder="Nome"><br><br>
+            <input class="função" id="idade" type="text" placeholder="Idade"><br><br>
+            <input class="função" id="peso" type="text" placeholder="Peso(kg)"><br><br>
+            <input class="função" id="altura" type="text" placeholder="Altura(m)"><br>
+            <div class="calcular">
+                <input class="bt_calcular" type="button" value="Calcular"> 
+            </div>
+            <div class="limpar">
+                <input  class="bt_limpar" type="reset" value="Limpar">
+            </div>
+        </form>
+        <p class="IMC">IMC:</p>
+        <fieldset class="box_sec">
+            <p class="valor_imc"> </p>
+        </fieldset>
+        <p class="status"></p>
+    </fieldset>
+    <p></p>
+</body>
+<script src="script.js"></script>
+</html>
